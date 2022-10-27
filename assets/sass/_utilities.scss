@@ -1,0 +1,82 @@
+// avanza sull'asse z
+.front{
+  z-index: 2;
+}
+
+// retrocede sull'asse z
+.back{
+  z-index: -1;
+}
+
+// toglie bullet e padding left predefiniti
+.no-list-style{
+  list-style: none;
+  padding: 0;
+}
+
+// stile per note
+.notes{
+  font-size: 0.8rem;
+  color: $text-color;
+}
+
+// stile grassetto
+.bold{
+  font-weight: 700;
+}
+
+// stile corsivo
+.italic{
+  font-style: italic;
+}
+
+// colore primario del progetto
+.primary-color{
+  color: $primary-color;
+}
+
+// colore secondario del progetto
+.secondary-color{
+  color: $secondary-color;
+}
+
+// colore usato per alcuni testi
+.text-color{
+  color: $text-color;
+}
+
+// ingrandisce testi
+.bigger-text{
+  font-size: 1.5rem;
+}
+
+// rimpicciolisce testi 
+.smaller-text{
+  font-size: 0.8rem;
+}
+
+// imposta la font family secondaria del progetto (attualmente inutilizzata)
+.garomond{
+  font-family: $garomond;
+}
+
+// spinge verso il basso un elemento
+.push-down80{
+  margin-top: 80px;
+}
+
+// toglie la sottolineatura dei link
+.social-link{
+  text-decoration: none;
+  color: $primary-color;
+}
+
+// classe per la foto nel background
+.page-bg{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}
+

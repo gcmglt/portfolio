@@ -1,0 +1,75 @@
+.centered-container {
+  max-width: 1170px;
+  width: 100%;
+  margin: auto;
+}
+
+.base {
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px 15px;
+  position: relative;
+  font-family: $montserrat;
+}
+
+.base::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: $wp-faded;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+}
+
+.base .base-text {
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+.base .base-text h1 {
+  color: $secondary-color;
+  font-size: 50px;
+  line-height: 56px;
+  font-weight: 700;
+  margin: 0 0 20px;
+}
+.base .base-text p {
+  margin: 0;
+  overflow: hidden;
+}
+.base .base-text p span {
+  font-size: 35px;
+  color: $text-color;
+  font-weight: 700;
+  display: inline-block;
+  line-height: 46px;
+  display: none;
+}
+
+.base .base-text p span.text-in {
+  display: block;
+  animation: textIn 0.5s ease;
+}
+.base .base-text p span.text-out {
+  animation: textOut 0.5s ease;
+}
+@keyframes textIn {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+@keyframes textOut {
+  0% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}

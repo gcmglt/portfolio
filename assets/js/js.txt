@@ -1,0 +1,2 @@
+Ho usato Javascript solo per l'animazione del testo nella homepage, so che questo progetto riguarda HTML e CSS ma ho voluto mettere anche qualcosina di JS che ho imparato tramite un corso su Udemy fatto prima di iscrivermi su start2impact.
+-Giacomo
