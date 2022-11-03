@@ -1,5 +1,7 @@
 // definite le const per l'animazione
-const textAnim = document.querySelector(".text-animation").children,
+const textAnim = document.querySelector(
+    ".text-animation"
+  ).children,
   textAnimLen = textAnim.length;
 let index = 0;
 // timer facilmente modificabile

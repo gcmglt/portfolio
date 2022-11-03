@@ -76,6 +76,9 @@ hr{
   border: 2px solid $secondary-color;
 }
 
-// import dei file per l'animazione della homepage e per le utilities
+// import dei file per l'animazione della homepage, per le utilities
+// e per le card delle skills
+
+@import "cards";
 @import "animation";
 @import "utilities";
