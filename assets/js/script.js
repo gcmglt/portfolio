@@ -4,7 +4,8 @@ const textAnim = document.querySelector(
   ).children,
   textAnimLen = textAnim.length;
 let index = 0;
-// timer facilmente modificabile
+
+// timer settings
 const textInTimer = 1400,
   textOutTimer = 1200;
 
@@ -29,5 +30,3 @@ function textAnimation() {
 }
 
 window.onload = textAnimation;
-
-// animazione migliorabile ma devo ancora studiare bene js per capire come fare

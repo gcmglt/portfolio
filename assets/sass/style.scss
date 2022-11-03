@@ -42,12 +42,42 @@ nav{
   }
 }
 
-// hr per dividere le sezioni della pagina curriculum
+// styling del contact form
+.contact-body{
+  background-color: $primary-color;
+  border-radius: 20px;
+}
+
+.contact-head{
+  background-color: $secondary-color;
+  border-radius: 20px 20px 0 0;
+}
+
+#contact-button{
+  background-color: $secondary-color;
+  color: $primary-color;
+  border: 1px solid $tertiary-color;
+}
+
+article h1{
+  color: $tertiary-color;
+  text-shadow: 2px 2px 2px #000;
+}
+
+article h4{
+  color: $primary-color;
+}
+
+article label{
+  font-size: 20px;
+}
+
+// hr per dividere curriculum
 hr{
   border: 2px solid $secondary-color;
 }
 
-// personalizzazione del social footer
+// styling social footer
 .social{
   width: 100vw;
   display: flex;
@@ -76,8 +106,8 @@ hr{
   border: 2px solid $secondary-color;
 }
 
-// import dei file per l'animazione della homepage, per le utilities
-// e per le card delle skills
+// import dei file per l'animazione della homepage,
+// per le utilities e per le cards sezione skills
 
 @import "cards";
 @import "animation";

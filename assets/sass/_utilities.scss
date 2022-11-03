@@ -55,14 +55,24 @@
   font-size: 0.8rem;
 }
 
-// imposta la font family secondaria del progetto (attualmente inutilizzata)
-.garomond{
-  font-family: $garomond;
+// imposta la font family
+.montserrat{
+  font-family: $montserrat;
 }
 
-// spinge verso il basso un elemento
+// spinge verso il basso un elemento di 80px
 .push-down80{
   margin-top: 80px;
+}
+
+// spinge verso il basso un elemento di 120px
+.push-down120{
+  margin-top: 120px;
+}
+
+// ombreggia il testo
+.shadow-text{
+  text-shadow: 2px 2px 2px #000;
 }
 
 // toglie la sottolineatura dei link
