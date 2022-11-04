@@ -34,11 +34,14 @@ nav{
       font-family: $montserrat;
       font-weight: 400;
       color: $secondary-color !important;
-      margin-left: 80px;
+      margin-left: 60px;
     }
   }#home-button{
     font-weight: 700;
-    margin-left: 0;
+    margin-left: 10px;
+  }.navbar-nav{
+    margin-left: auto;
+    // margin-right: auto;
   }
 }
 
@@ -46,11 +49,13 @@ nav{
 .contact-body{
   background-color: $primary-color;
   border-radius: 20px;
+  opacity: 0.92;
 }
 
 .contact-head{
   background-color: $secondary-color;
   border-radius: 20px 20px 0 0;
+  opacity: 0.92;
 }
 
 #contact-button{
