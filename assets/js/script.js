@@ -1,4 +1,4 @@
-// definite le const per l'animazione
+// const per l'animazione in homepage
 const textAnim = document.querySelector(
     ".text-animation"
   ).children,

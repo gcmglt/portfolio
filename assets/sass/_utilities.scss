@@ -40,8 +40,8 @@
   color: $secondary-color;
 }
 
-// colore usato per alcuni testi
-.text-color{
+// colore terziario del progetto
+.tertiary-color{
   color: $tertiary-color;
 }
 
@@ -55,17 +55,17 @@
   font-size: 0.8rem;
 }
 
-// imposta la font family
+// imposta la font family montserrat
 .montserrat{
   font-family: $montserrat;
 }
 
-// spinge verso il basso un elemento di 80px
+// spinge verso il basso un elemento di 80px rispetto agli altri
 .push-down80{
   margin-top: 80px;
 }
 
-// spinge verso il basso un elemento di 120px
+// spinge verso il basso un elemento di 120px rispetto agli altri
 .push-down120{
   margin-top: 120px;
 }
@@ -81,7 +81,7 @@
   color: $primary-color;
 }
 
-// classe per la foto nel background
+// classe per il background
 .page-bg{
   position: fixed;
   top: 0;

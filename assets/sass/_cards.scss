@@ -3,14 +3,10 @@
   padding-top: 60px; 
   padding-bottom: 80px;
 }
-
 .cards-wrap a{
   text-decoration: none;
   outline: none;
 }
-
-
-
 .cards-wrap .card-leaflet .card-pic{
   background: $secondary-color;
   overflow: hidden;
@@ -18,10 +14,12 @@
   border-radius: 15px 15px 0 0;
 }
 
+// hover del contenitore dell'img
 .cards-wrap .card-leaflet .card-pic:hover{
   background: $primary-color;
 }
 
+// transition img
 .cards-wrap .card-leaflet .card-pic img{
   -webkit-transition: all .8s ease; 
   -moz-transition: all .8s ease; 
@@ -45,11 +43,9 @@
 .cards-wrap .card-leaflet .card-content{
   text-align: center;
 }
-
 .cards-wrap .card-leaflet .card-content .text-content{
   padding: 28px 16px;
 }
-
 .cards-wrap .card-leaflet{
   border-radius: 15px 15px;  
   background: $tertiary-color;
@@ -74,6 +70,7 @@
   margin-top: 50px;
 }
 
+// descrizione skill
 .cards-wrap .card-leaflet .card-content p{
   margin-top: 10px;
   margin-bottom: 0px;
@@ -83,6 +80,7 @@
   font-family: $montserrat;
 }
 
+// competenza nella skill
 .cards-wrap .card-leaflet .card-content h5{
   margin-top: 10px;
   margin-bottom: 0px;
@@ -93,6 +91,7 @@
   font-family: $montserrat;
 }
 
+// nome skill
 .cards-wrap .card-leaflet .card-content h1{
   margin-top: 0px;
   margin-bottom: 4px; 
