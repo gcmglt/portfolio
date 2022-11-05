@@ -127,80 +127,75 @@
       />
     </figure>
     <section class="base page-bg back"></section>
-    <main>
-      <fieldset class="push-down120 mb-5">
-        <div
-          class="contact-body container border mt-3 push-down80"
-        >
-          <div class="row">
-            <div
-              class="contact-head col-12 py-5 px-5 text-center"
-            >
-              <h1 class="montserrat bold">Contact me</h1>
-              <h4 class="montserrat mt-3">
-                Send me a message for informations about the
-                services I offer and for general questions!
-              </h4>
-            </div>
-            <div class="col-12 py-5 px-5">
-              <h1>Contact form</h1>
+    <main class="push-down80 mb-3">
+      <div
+        class="contact-body container border mt-3 push-down80"
+      >
+        <div class="row push">
+          <div
+            class="contact-head col-12 py-5 px-5 text-center"
+          >
+            <h1 class="montserrat bold form-title">
+              Get in touch!
+            </h1>
+            <h4 class="montserrat mt-3 form-description">
+              Send me a message for informations about the
+              services I offer and for general questions!
+            </h4>
+          </div>
+          <div class="col-12 py-5 px-5">
+            <h1 class="form-caption montserrat bold">
+              Contact form
+            </h1>
+            <form id="contact-form">
+              <input
+                type="hidden"
+                name="contact_number"
+              />
               <div class="form-group">
-                <label
-                  class="montserrat mt-4 mb-2"
-                  for="name"
+                <label class="montserrat mt-4 mb-2"
+                  >Name</label
                 >
-                  Name
-                </label>
                 <input
                   type="text"
+                  name="user_name"
                   class="form-control"
-                  id="name"
                   placeholder="Your name..."
                   required
                 />
               </div>
               <div class="form-group">
-                <label
-                  class="montserrat mt-4 mb-2"
-                  for="email"
-                  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+                <label class="montserrat mt-4 mb-2"
+                  >Email</label
                 >
-                  Email
-                </label>
                 <input
                   type="email"
+                  name="user_email"
                   class="form-control"
-                  id="email"
-                  placeholder="Your email..."
+                  placeholder="Your email address..."
                   required
                 />
               </div>
               <div class="form-group">
-                <label
-                  class="montserrat mt-4 mb-2"
-                  for="message"
+                <label class="montserrat mt-4 mb-2"
+                  >Message</label
                 >
-                  Message
-                </label>
                 <textarea
-                  id="message"
-                  rows="3"
+                  name="message"
                   class="form-control"
                   placeholder="Your message..."
                   required
                 ></textarea>
-                <button
-                  id="contact-button"
-                  onclick="sendMail()"
-                  class="montserrat mt-4 mb-2 btn"
-                >
-                  Send
-                </button>
               </div>
-            </div>
+              <input
+                type="submit"
+                value="Send"
+                class="montserrat mt-4 mb-2 btn"
+              />
+            </form>
           </div>
         </div>
-      </fieldset>
+      </div>
     </main>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
